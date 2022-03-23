@@ -1,19 +1,19 @@
 /* CSS Document */
 body {
-  /* Typ písma bude Arial nebo sans-serif */
-  /* Barva pozadí bude svìtle šedá */
+  /* Typ pï¿½sma bude Arial nebo sans-serif */
+  /* Barva pozadï¿½ bude svï¿½tle ï¿½edï¿½ */
 }
 
-/* Selektor pro oddíl oznaèenı ID obal */ {
-  /* Maximální šíøka 960 px */
-  /* Nastav okraje tak, aby byl blok obal na stránce vycentrován */
-  /* Ohranièení - plná šedá èára o tloušce 1 pixel  */
-  /* Vnitøní odsazení - 20 pixelù */
-  /* Bílá barva pozadí */
-  /* Barva textu - tmavì šedı odstín, šestnáctkové hodnoty 3 */
+/* Selektor pro oddï¿½l oznaï¿½enï¿½ ID obal */ {
+  /* Maximï¿½lnï¿½ ï¿½ï¿½ï¿½ka 960 px */
+  /* Nastav okraje tak, aby byl blok obal na strï¿½nce vycentrovï¿½n */
+  /* Ohraniï¿½enï¿½ - plnï¿½ ï¿½edï¿½ ï¿½ï¿½ra o tlouï¿½ï¿½ce 1 pixel  */
+  /* Vnitï¿½nï¿½ odsazenï¿½ - 20 pixelï¿½ */
+  /* Bï¿½lï¿½ barva pozadï¿½ */
+  /* Barva textu - tmavï¿½ ï¿½edï¿½ odstï¿½n, ï¿½estnï¿½ctkovï¿½ hodnoty 3 */
 }
 
-/* Selektor pro znaèku nav */ {
+/* Selektor pro znaï¿½ku nav */ {
   background-color: #222;
   margin: -20px;
   margin-bottom: 20px;
@@ -22,27 +22,27 @@ body {
   color: lightgray;
 }
 
-/* Pro všechny odkazy v bloku navigace */ {
+/* Pro vï¿½echny odkazy v bloku navigace */ {
   padding: 19px;
-  /* Odkazy nebudou podtreny */
+  /* Odkazy nebudou podtrï¿½eny */
   color: lightgray;
 }
 
-/* Pro všechny odkazy v bloku navigace pøi pøejetí kurzoru myši */ {
+/* Pro vï¿½echny odkazy v bloku navigace pï¿½i pï¿½ejetï¿½ kurzoru myï¿½i */ {
   color: white;
   background-color: rgb(0,153,204);
 }
 
 h1 {
-  /* Nadpis bude vycentrován */
-  /* Velikost nadpisu bude dvojnásobná vzhledem k základní velikosti písma */
-  /* Nadpis bude tuènı */
-  /* Barva nadpisu bude totoná s barvou zvıraznìného odkazu */
-  /* Nadpis bude vypsán velkımi písmeny */
-  /* Vıška øádku nadpisu bude 2em */
+  /* Nadpis bude vycentrovï¿½n */
+  /* Velikost nadpisu bude dvojnï¿½sobnï¿½ vzhledem k zï¿½kladnï¿½ velikosti pï¿½sma */
+  /* Nadpis bude tuï¿½nï¿½ */
+  /* Barva nadpisu bude totoï¿½nï¿½ s barvou zvï¿½raznï¿½nï¿½ho odkazu */
+  /* Nadpis bude vypsï¿½n velkï¿½mi pï¿½smeny */
+  /* Vï¿½ï¿½ka ï¿½ï¿½dku nadpisu bude 2em */
 }
 
-/* Platí pro nadpisy h2 i h3 */ {
+/* Platï¿½ pro nadpisy h2 i h3 */ {
   font-weight: 200; 
   line-height: 2em;
 }
@@ -54,37 +54,39 @@ h2 {
 
 h3 { 
   font-size: 1.2em;
-  /* Nadpisy budou podtreny tenkou teèkovanou èarou, její barva bude shodná s barvou písma */ 
+  /* Nadpisy budou podtrï¿½eny tenkou teï¿½kovanou ï¿½arou, jejï¿½ barva bude shodnï¿½ s barvou pï¿½sma */ 
 }
 
 p, li {
   line-height: 1.5em;
-  /* Horní a spodní okraj odstavcù i odráek budou odsazeny o hodnotu 1em */
+  /* Hornï¿½ a spodnï¿½ okraj odstavcï¿½ i odrï¿½ek budou odsazeny o hodnotu 1em */
 }
 
 p {
-  /* Text odstavcù bude zarovnán do bloku */
+  /* Text odstavcï¿½ bude zarovnï¿½n do bloku */
 }
 
 li {
-  /* Nastavte styl odráek tak, aby odpovídal pøedloze (ètvercová odráka) */
+  /* Nastavte styl odrï¿½ek tak, aby odpovï¿½dal pï¿½edloze (ï¿½tvercovï¿½ odrï¿½ka) */
   list-style-position: outside;
   margin-left: 20px;
 }
 
-/* Nastavte pravidlo pro všechny tuènì a modøe zvıraznìné texty v odrákách. */
+b{
+  color: rgb(0, 155, 200);
+}
 
-/* Nastavte pravidlo pro všechny odstavce-poznámky: 
-    * na levém okraji bude šedé ohranièení 10px silné
-    * text bude zleva odsazen o 50 pixelù
-    * pouitı font bude o 10% menší ne základní písmo
-    * písmo bude naklonìné (kurzíva)
+/* Nastavte pravidlo pro vï¿½echny odstavce-poznï¿½mky: 
+    * na levï¿½m okraji bude ï¿½edï¿½ ohraniï¿½enï¿½ 10px silnï¿½
+    * text bude zleva odsazen o 50 pixelï¿½
+    * pouï¿½itï¿½ font bude o 10% menï¿½ï¿½ neï¿½ zï¿½kladnï¿½ pï¿½smo
+    * pï¿½smo bude naklonï¿½nï¿½ (kurzï¿½va)
 */
 
 footer {
   color: gray;
   margin: 10px auto;
-  /* Zápatí bude zarovnáno na støed */
+  /* Zï¿½patï¿½ bude zarovnï¿½no na stï¿½ed */
   font-size: 80%;
 }
 
@@ -93,6 +95,6 @@ strong {
 }
 
 
-/* Nastavte pravidla pro znaèky vloené do textu úvodního odstavce,
-   aby koneènı vzheld textu odpovídal pøedloze. */
+/* Nastavte pravidla pro znaï¿½ky vloï¿½enï¿½ do textu ï¿½vodnï¿½ho odstavce,
+   aby koneï¿½nï¿½ vzheld textu odpovï¿½dal pï¿½edloze. */
 
