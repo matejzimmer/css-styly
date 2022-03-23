@@ -1,19 +1,20 @@
 /* CSS Document */
 body {
-  /* Typ p�sma bude Arial nebo sans-serif */
-  /* Barva pozad� bude sv�tle �ed� */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
 }
 
-/* Selektor pro odd�l ozna�en� ID obal */ {
-  /* Maxim�ln� ���ka 960 px */
-  /* Nastav okraje tak, aby byl blok obal na str�nce vycentrov�n */
-  /* Ohrani�en� - pln� �ed� ��ra o tlou��ce 1 pixel  */
-  /* Vnit�n� odsazen� - 20 pixel� */
-  /* B�l� barva pozad� */
-  /* Barva textu - tmav� �ed� odst�n, �estn�ctkov� hodnoty 3 */
+#obal {
+  max-width: 960px;
+  margin: 0% auto;
+  border: black 1px;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+  
 }
 
-/* Selektor pro zna�ku nav */ {
+nav {
   background-color: #222;
   margin: -20px;
   margin-bottom: 20px;
@@ -22,27 +23,27 @@ body {
   color: lightgray;
 }
 
-/* Pro v�echny odkazy v bloku navigace */ {
+nav a {
   padding: 19px;
-  /* Odkazy nebudou podtr�eny */
+  text-decoration: none;
   color: lightgray;
 }
 
-/* Pro v�echny odkazy v bloku navigace p�i p�ejet� kurzoru my�i */ {
+nav a:hover {
   color: white;
   background-color: rgb(0,153,204);
 }
 
 h1 {
-  /* Nadpis bude vycentrov�n */
-  /* Velikost nadpisu bude dvojn�sobn� vzhledem k z�kladn� velikosti p�sma */
-  /* Nadpis bude tu�n� */
-  /* Barva nadpisu bude toto�n� s barvou zv�razn�n�ho odkazu */
-  /* Nadpis bude vyps�n velk�mi p�smeny */
-  /* V��ka ��dku nadpisu bude 2em */
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  color: rgb(0, 153, 204);
+  font-variant: small-caps;
+  line-height: 2cm;
 }
 
-/* Plat� pro nadpisy h2 i h3 */ {
+h2, h3 {
   font-weight: 200; 
   line-height: 2em;
 }
@@ -54,39 +55,42 @@ h2 {
 
 h3 { 
   font-size: 1.2em;
-  /* Nadpisy budou podtr�eny tenkou te�kovanou �arou, jej� barva bude shodn� s barvou p�sma */ 
+  border-bottom: 1px dotted; 
 }
 
 p, li {
   line-height: 1.5em;
-  /* Horn� a spodn� okraj odstavc� i odr�ek budou odsazeny o hodnotu 1em */
+  margin-top: 1cm;
+  margin-bottom: 1cm;
 }
 
 p {
-  /* Text odstavc� bude zarovn�n do bloku */
+  text-align: justify;
 }
 
 li {
-  /* Nastavte styl odr�ek tak, aby odpov�dal p�edloze (�tvercov� odr�ka) */
+  list-style-type: square;
   list-style-position: outside;
   margin-left: 20px;
+  
 }
 
 b{
   color: rgb(0, 155, 200);
 }
 
-/* Nastavte pravidlo pro v�echny odstavce-pozn�mky: 
-    * na lev�m okraji bude �ed� ohrani�en� 10px siln�
-    * text bude zleva odsazen o 50 pixel�
-    * pou�it� font bude o 10% men�� ne� z�kladn� p�smo
-    * p�smo bude naklon�n� (kurz�va)
-*/
+.poznamka{
+border-left: gray solid 10px;
+padding-left: 50px;
+font-size: 90%;
+font-style: italic;
+} 
+    
 
 footer {
   color: gray;
   margin: 10px auto;
-  /* Z�pat� bude zarovn�no na st�ed */
+  text-align: center;
   font-size: 80%;
 }
 
@@ -95,6 +99,12 @@ strong {
 }
 
 
-/* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
-   aby kone�n� vzheld textu odpov�dal p�edloze. */
+mark {
+  background-color: rgb(100, 150, 0);
+  color: white;
+}
+
+.mid {
+  text-align: center;
+}
 
